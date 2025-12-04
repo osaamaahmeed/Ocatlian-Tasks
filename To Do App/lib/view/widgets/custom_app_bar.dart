@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:simple_to_do_app/utils/constant.dart';
-import 'package:simple_to_do_app/view/cubits/taskCubit/task_cubit.dart';
+import 'package:simple_to_do_app/cubits/taskCubit/task_cubit.dart';
 
 class CustomAppBar extends StatelessWidget {
   const CustomAppBar({super.key});

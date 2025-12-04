@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:simple_to_do_app/utils/constant.dart';
 import 'package:simple_to_do_app/view/add_task_screen.dart';
-import 'package:simple_to_do_app/view/cubits/taskCubit/task_cubit.dart';
+import 'package:simple_to_do_app/cubits/taskCubit/task_cubit.dart';
 import 'package:simple_to_do_app/view/widgets/custom_app_bar.dart';
 import 'package:simple_to_do_app/view/widgets/custom_task_tile.dart';
 import 'package:simple_to_do_app/view/widgets/home_screen_header.dart';

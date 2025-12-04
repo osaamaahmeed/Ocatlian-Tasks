@@ -4,7 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
 import 'package:simple_to_do_app/utils/constant.dart';
 import 'package:simple_to_do_app/utils/helper.dart';
-import 'package:simple_to_do_app/view/cubits/taskCubit/task_cubit.dart';
+import 'package:simple_to_do_app/cubits/taskCubit/task_cubit.dart';
 import 'package:simple_to_do_app/view/widgets/custom_picker_container.dart';
 import 'package:simple_to_do_app/model/task_model.dart';
 
