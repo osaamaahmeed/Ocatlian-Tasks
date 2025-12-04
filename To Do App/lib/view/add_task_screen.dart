@@ -123,11 +123,11 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                 title: "Time",
                 value: DateFormat('hh:mm a').format(_selectedTime),
                 onTap: () {
-                  final now = DateTime.now();
-                  bool isToday =
-                      _selectedDate.year == now.year &&
-                      _selectedDate.month == now.month &&
-                      _selectedDate.day == now.day;
+                  // final now = DateTime.now();
+                  // bool isToday =
+                  //     _selectedDate.year == now.year &&
+                  //     _selectedDate.month == now.month &&
+                  //     _selectedDate.day == now.day;
                   showCustomDateTimePicker(
                     context: context,
                     initialDateTime: _selectedTime,
